@@ -1,5 +1,5 @@
 grav = 2;
-jump_velocity = -50;
+jump_velocity = -10;
 original_height = y;
 
 state = State.WaitingForJump;
@@ -9,3 +9,5 @@ enum State {
 	WaitingForJump,
 	Jumping
 }
+
+show_debug_message(room_speed);
